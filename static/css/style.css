@@ -1,0 +1,275 @@
+body {
+    background-color: rgb(229, 229, 229);
+}
+
+.header {
+    padding: 20px 0;
+    background: #41b3cd;
+}
+
+.header .container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header .container .logo {
+    position: relative;
+    padding: 15px;
+    width: 45%;
+    float: left;
+    top: 4px;
+}
+
+.container .logo img {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.header .container .contact {
+    position: relative;
+    padding: 15px;
+    width: 45%;
+    float: right;
+    text-align: right;
+    top: 4px;
+}
+
+.header .container .contact a {
+    color: #fff;
+}
+
+.header .container .contact a:last-child {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.nav {
+    background: rgb(77, 191, 217);
+    height: 300px;
+    width: 100%;
+}
+
+.nav .bar {
+    display: flex;
+    position: relative;
+    width: 73%;
+    margin: 0 auto;
+    background: rgb(77, 191, 217);
+    box-shadow: 0.139px 0.99px 3px 1px rgba(0, 1, 1, 0.118);
+    padding: 4px 30px;
+}
+
+.nav .bar .bar-item {
+    display: flex;
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+    background: #4dbfd9;
+    color: #fff;
+}
+
+.bar .bar-item a {
+    position: relative;
+    display: block;
+    padding: .96em;
+    margin: 0 auto;
+    z-index: 2;
+    overflow: hidden;
+    color: #fff;
+}
+
+.nav .main {
+    position: relative;
+    width: 77%;
+    /*height: 600px;*/
+    /*background: #000;*/
+    margin: 0 auto;
+    padding: 0px 30px;
+    top: 70px;
+}
+
+.nav .main .avatar-wrapper {
+    background: url("../img/about_img1.jpg");
+    background-color: #4dbfd9;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0.2em;
+}
+
+.avatar-wrapper .wrapper-inner {
+    padding: 4em 0;
+}
+
+.wrapper-inner .avatar-box .ava_wrapper {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.avatar-wrapper .wrapper-inner .avatar-box .ava_wrapper img {
+    position: relative;
+    left: 44%;
+    width: 132px;
+    border-radius: 50%;
+}
+
+.wrapper-inner .avatar-box p.intro {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.wrapper-inner .avatar-box p.career_desc {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.wrapper-inner .contact-icon {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+    padding-top: 25px;
+}
+
+.wrapper-inner .contact-icon i {
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0 4px;
+}
+
+.wrapper-inner .contact-icon i.fa-weibo {
+    font-size: 26px;
+}
+
+.wrapper-inner .contact-icon i.fa-github {
+    font-size: 26px;
+}
+
+.wrapper-inner .contact-icon i.fa-qq {
+    font-size: 22px;
+}
+
+.wrapper-inner .inner-btn {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-default {
+    background: none;
+    min-width: 110px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+.inner-btn > a {
+    margin: 0 15px;
+    padding: 17px 28px;
+}
+
+.inner-btn > a:hover {
+    color: #fff;
+    background: #4dbfd9;
+    border-color: transparent;
+}
+
+.base-info .wrapper-inner {
+    padding-top: 20px;
+}
+
+.base-info .wrapper-inner .about-section{
+    padding: 16px 60px;
+    display: flex;
+}
+
+.about-section .left {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    line-height: 23px;
+    font-size: 13px;
+}
+
+.about-section .right {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-left: 8.33333%;
+    position: relative;
+    left: 0px;
+
+}
+
+.about-section  h4 {
+    padding-bottom: 6px;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 29.12px;
+}
+
+.about-section .left .about-content span.active-color {
+    display: inline-block;
+    color: #4dbfd9;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.about-section .left .about-content .border-dashed {
+    display: block;
+    font-weight: 500;
+    width: 100%;
+    height: 1px;
+    margin: 14px 0;
+    overflow: hidden;
+    background: url(../img/dashed-img.png) repeat-x;
+}
+
+
+.right .info-content {
+    position: relative;
+    min-height: 100%;
+    /*padding: 10px 0;*/
+    width: 100%;
+}
+
+.right .info-content .row {
+    overflow: hidden;
+}
+
+.info-content .row .label {
+    width: 33%;
+    float: left;
+}
+
+.label h6 {
+    font-weight: 700;
+    line-height: 24.44px;
+    font-size: 13px;
+}
+
+.info-content .row .detail {
+    width: 66%;
+    float: left;
+}
+
+.detail p {
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
