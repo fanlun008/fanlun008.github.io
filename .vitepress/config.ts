@@ -27,11 +27,11 @@ export default defineConfig({
             // { text: 'Airene', link: 'http://airene.net' }  -- External link test
         ],
         search: {
-            provider: 'local',
+            provider: 'local'
         },
         //outline:[2,3],
-        outline:{
-            label:'文章摘要'
+        outline: {
+            label: '文章摘要'
         },
         socialLinks: [{ icon: 'github', link: 'https://github.com/fanlun008/fanlun008.github.io' }]
     } as any,
@@ -39,7 +39,7 @@ export default defineConfig({
 
     vite: {
         //build: { minify: false }
-        server: { port: 5000 }
+        server: { port: 5000, hmr: true }
     }
     /*
       optimizeDeps: {
