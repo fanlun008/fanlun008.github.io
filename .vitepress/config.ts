@@ -5,14 +5,14 @@ import { getPosts } from './theme/serverUtils'
 const pageSize = 10
 
 export default defineConfig({
-    title: 'Vitepress blog',
+    title: 'Andrew blog',
     base: '/',
     cacheDir: './node_modules/vitepress_cache',
     description: 'vitepress,blog,blog-theme',
     ignoreDeadLinks: true,
     themeConfig: {
         posts: await getPosts(pageSize),
-        website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
+        website: 'https://github.com/fanlun008/fanlun008.github.io', //copyright link
         // 评论的仓库地址
         comment: {
             repo: 'airene/vitepress-blog-pure',
@@ -20,11 +20,10 @@ export default defineConfig({
             issueTerm: 'pathname'
         },
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Category', link: '/pages/category' },
-            { text: 'Archives', link: '/pages/archives' },
-            { text: 'Tags', link: '/pages/tags' },
-            { text: 'About', link: '/pages/about' }
+            { text: '主页', link: '/' },
+            { text: '分类', link: '/pages/category' },
+            { text: '标签', link: '/pages/tags' },
+            { text: '我', link: '/pages/about' }
             // { text: 'Airene', link: 'http://airene.net' }  -- External link test
         ],
         search: {
@@ -34,7 +33,7 @@ export default defineConfig({
         outline:{
             label:'文章摘要'
         },
-        socialLinks: [{ icon: 'github', link: 'https://github.com/airene/vitepress-blog-pure' }]
+        socialLinks: [{ icon: 'github', link: 'https://github.com/fanlun008/fanlun008.github.io' }]
     } as any,
     srcExclude: ['README.md'], // exclude the README.md , needn't to compiler
 
